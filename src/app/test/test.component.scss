@@ -1,0 +1,30 @@
+.form-control {
+  padding-right: 100px;
+  border-radius: 15px;
+}
+
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.fas-input {
+  position: relative;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.input-group-append {
+  border-radius: 15px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+  border-radius: 15px;
+}
+
+.input-group-text {
+  border-radius: 15px;
+}
