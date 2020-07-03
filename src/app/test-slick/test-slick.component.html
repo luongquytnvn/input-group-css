@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6 offset-3" style="background-color: silver; min-height: 400px">
+      <div class="slick-test">
+        <div *ngFor="let i of data">
+          <app-test1 *ngIf="i == 1"></app-test1>
+          <app-test2 *ngIf="i == 2"></app-test2>
+          <app-test3 *ngIf="i == 3"></app-test3>
+          <app-test1 *ngIf="i == 1"></app-test1>
+          <app-test2 *ngIf="i == 2"></app-test2>
+          <app-test3 *ngIf="i == 3"></app-test3>
+          <app-test1 *ngIf="i == 1"></app-test1>
+          <app-test2 *ngIf="i == 2"></app-test2>
+          <app-test3 *ngIf="i == 3"></app-test3>
+        </div>
+
+<!--        <app-test1 *ngIf="isUse(1)"></app-test1>-->
+<!--        <app-test2 *ngIf="isUse(2)"></app-test2>-->
+<!--        <app-test3 *ngIf="isUse(3)"></app-test3>-->
+<!--        <app-test1 *ngIf="isUse(1)"></app-test1>-->
+<!--        <app-test2 *ngIf="isUse(2)"></app-test2>-->
+<!--        <app-test3 *ngIf="isUse(3)"></app-test3>-->
+<!--        <app-test1 *ngIf="isUse(1)"></app-test1>-->
+<!--        <app-test2 *ngIf="isUse(2)"></app-test2>-->
+<!--        <app-test3 *ngIf="isUse(3)"></app-test3>-->
+
+<!--        <app-test1 *ngIf="isUse(1)"></app-test1>-->
+<!--        <app-test2 *ngIf="data[1] == 2"></app-test2>-->
+<!--        <app-test3 *ngIf="data[2] == 3"></app-test3>-->
+<!--        <app-test1 *ngIf="data[0] == 1"></app-test1>-->
+<!--        <app-test2 *ngIf="data[1] == 3"></app-test2>-->
+<!--        <app-test3 *ngIf="data[2] == 3"></app-test3>-->
+<!--        <app-test1 *ngIf="data[0] == 1"></app-test1>-->
+<!--        <app-test2 *ngIf="data[1] == 2"></app-test2>-->
+<!--        <app-test3 *ngIf="data[2] == 1"></app-test3>-->
+      </div>
+      <button (click)="unSlick()">unSlick</button>
+      <button (click)="add()">Add</button>
+      <button (click)="slick()">slick</button>
+      <button (click)="resetInit()">resetInit</button>
+    </div>
+  </div>
+</div>
+
+<div class="prev">Prev</div>
+
+<div class="next">Next</div>

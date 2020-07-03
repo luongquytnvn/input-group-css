@@ -26,13 +26,15 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/slick/slick.scss",
-              "src/assets/slick/slick-theme.scss"
+              "src/assets/slick-carousel/slick.scss",
+              "src/assets/slick-carousel/slick-theme.scss"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/slick/slick.js"
+              "src/assets/slick-carousel/jquery-3.3.1.min.js",
+              "src/assets/slick-carousel/jquery-migrate-3.0.0.min.js",
+              "src/assets/slick-carousel/slick.min.js"
             ]
           },
           "configurations": {
